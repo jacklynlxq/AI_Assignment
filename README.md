@@ -40,18 +40,21 @@ In the program, the user can load a dataframe which consists of the package of t
 The following is an example of an expected user input.\
 
 Data frame loaded (per day):
-
+![vacationProblemDataframe](https://github.com/jacklynlxq/AI_Assignment/blob/master/images/vacationProblemDataframe.PNG)
 
 Amount of money: 20,000\
 Lower boundary of combination = (1,1,1,1)\
-(i.e.: )\
-Upper boundary of combination = (4,6,6,6)\
-(i.e.: )\
+(i.e.: Hotel: 50 bucks, Food: 100 bucks, TouristSpot: 100 bucks, KindOfTransportation: 10 bucks)\
+Upper boundary of combination = (4,6,6,6) - User wants to pay less for hotel\
+(i.e.: Hotel: 400 bucks, Food: 500 bucks, TouristSpot: 250 bucks, KindOfTransportation: 50 bucks)\
 Population Size = 500\
-![vacationProblemGAExample](https://github.com/jacklynlxq/AI_Assignment/blob/master/images/vacationProblemGAExample.PNG)\
+
+The following shows the summary of the result of the genetic algorithm\
+![vacationProblemGAExample](https://github.com/jacklynlxq/AI_Assignment/blob/master/images/vacationProblemGAExample.PNG)
 
 The best solution found is a combination of [3, 5, 5, 5]. \
+(i.e.: Hotel: 200 bucks, Food: 500 bucks, TouristSpot: 250 bucks, KindOfTransportation: 50 bucks)\
 The amount added from this combination is 1070, which is the highest possible amount closest to 20,000. \
 The possible number of vacation days according to this combination is 18 as returned by the program.\
 The following graph shows the fitness value of the generated solutions each generation
-![vacationProblemGAResult](https://github.com/jacklynlxq/AI_Assignment/blob/master/images/vacationProblemGAResult.PNG)\
+![vacationProblemGAResult](https://github.com/jacklynlxq/AI_Assignment/blob/master/images/vacationProblemGAResult.PNG)
