@@ -1,5 +1,5 @@
 # AI_Assignment
-Consists of my solution for N-Queens Problem which utilises BFS and Vacation Problem which utilises Genetic Algorithm
+Consists of my solution for N-Queens Problem which utilises BFS and Genetic Algorithm and Vacation Problem which utilises Genetic Algorithm
 
 ## N-Queens Problem
 ### Bread First Search Solution
